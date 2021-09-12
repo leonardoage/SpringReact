@@ -1,7 +1,6 @@
 package com.jsystems.dsvendas.services;
 
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +9,8 @@ import org.springframework.stereotype.Service;
 import com.jsystems.dsvendas.dto.SellerDTO;
 import com.jsystems.dsvendas.entities.Seller;
 import com.jsystems.dsvendas.repositories.SellerRepository;
+
+
 
 @Service
 public class SellerService {
